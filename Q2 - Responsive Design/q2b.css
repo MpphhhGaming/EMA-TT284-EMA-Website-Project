@@ -25,7 +25,7 @@ li a {
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 5px;
   text-decoration: none;
   border-style: none none solid none;
   border-color: #ffffff;
@@ -65,7 +65,7 @@ li a.active { border-color: #482673; }
   padding: 0.5vw;
 }
 .form-container input[type=text], .form-container input[type=password] {
-  width: 15vw;
+  width: 25vw;
   padding: 1vh;
   border: none;
   background: #f1f1f1;
@@ -80,7 +80,7 @@ li a.active { border-color: #482673; }
   padding:1vh;
   border: none;
   cursor: pointer;
-  width: 10vh;
+  width: 100%;
   opacity: 0.8;
 }
 .form-container .button:hover { opacity: 1; }
@@ -110,7 +110,7 @@ li a.active { border-color: #482673; }
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 10%;
+  width: 50%;
   margin-bottom:10px;
   opacity: 0.8;
 }
@@ -120,7 +120,7 @@ li a.active { border-color: #482673; }
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 10%;
+  width: 50%;
   margin-bottom:10px;
   opacity: 0.8;;
 }
