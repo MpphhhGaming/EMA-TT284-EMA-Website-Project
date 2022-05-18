@@ -1,0 +1,55 @@
+/* General CSS */
+body
+{
+  margin:auto;
+  padding: 0;
+  font-size: 14px;
+  color: #333333;
+  width: 1024px;
+  background-color: #d3d3d3;
+}
+
+/* Page Background */
+#pagebackground
+{
+  padding: 1%;
+  background-color: #ffffff;
+  border-style: solid none solid none;
+  border-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar
+{
+  background: #ffffff;
+  overflow: hidden;
+  font-size: 120%;
+  border-style: none none solid none;
+  border-width: 3px;
+}
+.navbar a
+{
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 120%;
+}
+.navbar a:hover
+{
+  background: #d3d3d3;
+}
+.navbar a.active
+{
+  background: #aaaaaa;
+}
+
+/* Footer */
+footer
+{
+  border-style: solid none none none;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+}
