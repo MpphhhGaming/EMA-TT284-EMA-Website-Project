@@ -35,7 +35,7 @@ li a:hover { border-color: #482673; }
 li a.active { border-color: #482673; }
 /* Paralax Background */
 .paralax {
-  background-image: url("img/backgroundImage.jpg");
+  background-image: url("backgroundImage.jpg");
   min-height: 30vh; /* Height of Image */
   background-attachment: fixed;
   background-position: bottom;
