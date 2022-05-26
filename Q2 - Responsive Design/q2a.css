@@ -104,6 +104,13 @@ li a.active { border-color: #482673; }
   background-color: #ddd;
   outline: none;
 }
+.status {
+    width: 102%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
 .submit-container .button {
   background-color: #482673;
   color: white;
@@ -128,6 +135,54 @@ li a.active { border-color: #482673; }
   opacity: 1;
 }
 
+/* Delete Form */
+.delete-form {
+  display: block;
+}
+.delete-container {
+  width: 95%;
+  padding: 0.5vw;
+}
+.delete-container input[type=text] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.delete-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.delete-container .button {
+  background-color: #482673;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.delete-container .button:hover {
+  opacity: 1;
+}
+
+/* Table */
+.events {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 22px 0;
+    border-style: solid solid solid solid;
+    border-color: #000000;
+    
+}
+.events .head {
+    background: #f1f1f1;
+    border-style: none none solid none;
+}
+
 /* Footer */
 .footer-distributed {
   background-color: #482673;
@@ -145,6 +200,8 @@ li a.active { border-color: #482673; }
   font-size: 14px;
   margin: 0;
 }
+
+
 /* Footer links */
 
 .footer-distributed p.footer-links {
@@ -171,5 +228,4 @@ li a.active { border-color: #482673; }
   padding-right: 5px;
 }
 .footer-distributed .footer-links .link-1:before { content: none; }
-.footer-distributed .footer-right a:hover{ transform:scale(1.1); -webkit-transform:scale(1.1); }
 .footer-distributed p.footer-links a:hover{ text-decoration:underline; }
